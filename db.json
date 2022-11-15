@@ -1,0 +1,108 @@
+{
+  "planos": [
+    {
+      "id": 1,
+      "name": "Plano com caminhões",
+      "description": "Plano para transporte rodoviário com os caminhões de pequeno e médio porte.",
+      "price": "Variável"
+    },
+    {
+      "id": 2,
+      "name": "Plano com aviões",
+      "description": "Plano para transporte aéreo com os aviões de pequeno e médio porte.",
+      "price": "Variável"
+    },
+    {
+      "id": 3,
+      "name": "Plano agregado",
+      "description": "Plano para transporte rodoviário e aéreo com uso dos caminhões e aviões de pequeno e médio porte.",
+      "price": "Variável"
+    },
+    {
+      "id": 4,
+      "name": "Avulso",
+      "description": "Contrato avulso para transportes não recorrentes.",
+      "price": "Variável"
+    },
+    {
+      "name": "Test",
+      "description": "Test",
+      "price": "Test",
+      "id": 5
+    },
+    {
+      "name": "Novo plano",
+      "description": "Plano número 6",
+      "price": "R$ 1.000,00",
+      "id": 6
+    }
+  ],
+  "rotas": [
+    {
+      "id": 1,
+      "name": "RJ x SP",
+      "description": "Rota que liga a segunda com a terceira maior capital do país.",
+      "distance": "428,25 km"
+    },
+    {
+      "id": 2,
+      "name": "RJ x BH",
+      "description": "Rota que liga a segunda com a sexta maior capital do país.",
+      "distance": "436,85 km"
+    },
+    {
+      "id": 3,
+      "name": "RJ x VT",
+      "description": "Rota que liga a segunda com a vigésima sexta maior capital do país.",
+      "distance": "518,62 km"
+    },
+    {
+      "id": 4,
+      "name": "SP x BH",
+      "description": "Rota que liga a primeira com a sexta maior capital do país.",
+      "distance": "588,07 km"
+    },
+    {
+      "id": 5,
+      "name": "SP x VT",
+      "description": "Rota que liga a primeira com a vigésima sexta maior capital do país.",
+      "distance": "1.002,56 km"
+    },
+    {
+      "id": 6,
+      "name": "BH x VT",
+      "description": "Rota que liga a sexta com a vigésima sexta maior capital do país.",
+      "distance": "523,83 km"
+    }
+  ],
+  "veiculos": [
+    {
+      "id": 1,
+      "name": "Caminhão de pequeno porte",
+      "description": "Veículo disponível nos planos: 1, 3 e 4.",
+      "capacity": "13 toneladas",
+      "speed": "80 km/h"
+    },
+    {
+      "id": 2,
+      "name": "Caminhão de médio porte",
+      "description": "Veículo disponível nos planos: 1, 3 e 4.",
+      "capacity": "20 toneladas",
+      "speed": "80 km/h"
+    },
+    {
+      "id": 3,
+      "name": "Avião de pequeno porte",
+      "description": "Aeronave disponível nos planos: 2, 3 e 4.",
+      "capacity": "10 toneladas",
+      "speed": "903 km/h"
+    },
+    {
+      "id": 4,
+      "name": "Avião de médio porte",
+      "description": "Aeronave disponível nos planos: 2, 3 e 4.",
+      "capacity": "18 toneladas",
+      "speed": "780 km/h"
+    }
+  ]
+}
