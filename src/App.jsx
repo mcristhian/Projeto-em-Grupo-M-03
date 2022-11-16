@@ -10,13 +10,13 @@ import Axios from 'axios';
 //   })
 // }
 
-export default function() {
-  Axios.post('https://projetoemgrupom03.herokuapp.com/planos', {
-    name: 'Test',
-    description: 'Test',
-    price: 'Test'
-  })
-}
+// export default function() {
+//   Axios.post('https://projetoemgrupom03.herokuapp.com/planos', {
+//     name: 'Test',
+//     description: 'Test',
+//     price: 'Test'
+//   })
+// }
 
 // export default function() {
 //   Axios.put('https://projetoemgrupom03.herokuapp.com/planos/6', {
