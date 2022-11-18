@@ -49,9 +49,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #212121;
+  background-color:#181818;
   color: whitesmoke;
   flex-direction: column;
+  padding: 2em;
 }
 
 .main-header{
@@ -65,5 +66,9 @@
 }
 
 body {
-  background-color: gray;
+  background-color:	#181818 !important;
+}
+
+ul {
+  list-style-type: none;
 }
