@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 import axios from 'axios';
-// import { useHistory } from 'react-router';
 import { useNavigate } from 'react-router-dom';
 
 function Create() {
@@ -9,7 +8,6 @@ function Create() {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
     const [distance, setDistance] = useState('');
-    // console.log(checkbox)
     const postData = () => {
         axios.post(`https://api-p-em-g-m-03.herokuapp.com/rotas`, {
             name,

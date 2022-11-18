@@ -11,18 +11,15 @@ function App() {
         <h2 className="main-header">Transportadora</h2>
         <div>
           <Routes>
-          {/* <Route exact path='/create' component={Create}/> */}
           <Route path="/create" element={<Create />} > </Route>
           </Routes>
         </div>
         <div style={{ marginTop: 20 }}>
           <Routes>
-          {/* <Route exact path='/read' component={Read}/> */}
           <Route path="/read" element={<Read />} > </Route>
           </Routes>
         </div>
         <Routes>
-        {/* <Route path='/update' component={Update}/> */}
         <Route path="/update" element={<Update />} > </Route>
         </Routes>
       </div>
