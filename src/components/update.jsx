@@ -12,16 +12,16 @@ function Update() {
 
     useEffect(() => {
         setID(localStorage.getItem('ID'))
-        setFirstName(localStorage.getItem('Name'));
-        setLastName(localStorage.getItem('Description'));
-        setCheckbox(localStorage.getItem('Distance'));
+        setName(localStorage.getItem('Name'));
+        setDescription(localStorage.getItem('Description'));
+        setDistance(localStorage.getItem('Distance'));
     }, []);
 
     const updateAPIData = () => {
         axios.put(`https://api-p-em-g-m-03.herokuapp.com/rotas/${id}`, {
-            Name,
-            Description,
-            Distance
+            name,
+            description,
+            distance
         }).then(() => {
             history('/read')
         })
